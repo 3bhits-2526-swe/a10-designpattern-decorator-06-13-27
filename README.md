@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZXq9zVzz)
 # Decorator Pattern – Bewegtes Objekt erweitern
 
 ## Ausgangssituation
@@ -108,3 +109,5 @@ Testet, ob mehrere Decorators kombiniert werden können.
 # Teil 5 - Playthrough Video (<100MB) 
 
 # Teil 6 - Vorbereitung einer Live Demo
+
+# Teil 7 - UML Machen
