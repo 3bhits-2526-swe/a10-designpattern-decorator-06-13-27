@@ -44,5 +44,20 @@ public class MoveBetweenPoints : MonoBehaviour
             currentTarget.position,
             speed * Time.deltaTime
         );
+
+        ChangeColor();
+    }
+
+    private void ChangeColor()
+    {
+        if (Vector3.Distance(transform.position, currentTarget.position) <= reachDistance)
+        {
+            if (changeColorOnBounce && spriteRenderer != null)
+            {
+                spriteRenderer.color = Random.ColorHSV();
+            }
+
+            currentTarget = currentTarget == pointA ? pointB : pointA;
+        }
     }
 }
