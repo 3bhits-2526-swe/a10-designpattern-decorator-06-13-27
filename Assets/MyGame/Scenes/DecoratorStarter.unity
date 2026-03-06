@@ -729,6 +729,8 @@ GameObject:
   - component: {fileID: 1467152875}
   - component: {fileID: 1467152874}
   - component: {fileID: 1467152876}
+  - component: {fileID: 1467152877}
+  - component: {fileID: 1467152878}
   m_Layer: 0
   m_Name: MovingObj
   m_TagString: Untagged
@@ -823,7 +825,33 @@ MonoBehaviour:
   pointB: {fileID: 1417596474}
   speed: 2
   reachDistance: 0.05
-  changeColorOnBounce: 1
+--- !u!114 &1467152877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467152873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3591e6ca99e21364bbd4c5f99b32ec48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseAmount: {x: 20, y: 20, z: 20}
+  pulseSpeed: 2
+--- !u!114 &1467152878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467152873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7d44831c7bc394e90ec5be9702e027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0, z: 90}
 --- !u!1 &1983930320
 GameObject:
   m_ObjectHideFlags: 0
